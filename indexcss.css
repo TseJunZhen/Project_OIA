@@ -1,14 +1,14 @@
 .container{
-  width: 1280px;
-  height: 2120px;
-
+    max-width: 1280px;
+    max-height: 1653px;
+  	margin: 0 auto;
 }
 
 #indexSlides_1{
   margin: 0 auto;
   background-image: url("image/tjz_4.jpg");
   opacity: 1;
-  width: 97vw;
+  width: 98.7%;
   height: 550px;
   margin-left: -8px;
   margin-top: -8px;
@@ -17,75 +17,74 @@
 }
 .logo{
   background-image: url("image/mark003.gif");
-
   position:absolute;
-  margin-left: 170px;
-  margin-top: 50px;
+  margin-left: 0px;
+  margin-top: 10px;
   width: 70px;
   height: 70px;
-  background-size: 75px 70px;
+  background-size: 65px 60px;
   background-repeat: no-repeat;
 }
 .logo_world_ch{
   color:white;
   position:absolute;
-  font-size: 14pt;
-  margin-left: 260px;
-  margin-top: 67px;
+  font-size: 12pt;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 .logo_world_en{
   color:white;
   position:absolute;
-  font-size: 14pt;
-  margin-left: 260px;
-  margin-top: 87px;
+  font-size: 12pt;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 .world_about{
   color:white;
   font-style: italic;
-  font-size: 16pt;
+  font-size: 14pt;
   position:absolute;
-  margin-left: 47.3%;
-  margin-top: 67px;
+  margin-left: 650px;
+  margin-top: 27px;
 }
 .world_new{
   color:white;
   font-style: italic;
-  font-size: 16pt;
+  font-size: 14pt;
   position:absolute;
-  margin-left: 55.3%;
-  margin-top: 67px;
+  margin-left: 750px;
+  margin-top: 27px;
 }
 .world_guide{
   color:white;
   font-style: italic;
-  font-size: 16pt;
+  font-size: 14pt;
   position:absolute;
-  margin-left: 63.3%;
-  margin-top: 67px;
+  margin-left: 850px;
+  margin-top: 27px;
 }
 .world_axchange{
   color:white;
   font-style: italic;
-  font-size: 16pt;
+  font-size: 14pt;
   position:absolute;
-  margin-left: 71.3%;
-  margin-top: 67px;
+  margin-left: 950px;
+  margin-top: 27px;
 }
 .world_contact{
   color:white;
   font-style: italic;
-  font-size: 16pt;
+  font-size: 14pt;
   position:absolute;
-  margin-left: 79.3%;
-  margin-top: 67px;
+  margin-left: 1050px;
+  margin-top: 27px;
 }
 .world_main_ch{
   color:white;
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 33%;
+  margin-left: 330px;
   margin-top: 330px;
 }
 .world_main_en{
@@ -93,21 +92,21 @@
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 28%;
+  margin-left: 230px;
   margin-top: 400px;
 }
 #indexSlides_2{
   margin: 0 auto;
   background-image: url("image/News_2.jpg");
-  width: 98.7vw;
+  width: 100.3%;
   height: 550px;
   background-size: 100% 550px;
   background-repeat:no-repeat;
 }
 .icon_new{
   position:absolute;
-  margin-left: 16%;
-  margin-top: 7.5%;
+  margin-left: 305px;
+  margin-top: 140px;
   background-image: url("image/title_icon.png");
   width: 45px;
   height: 37px;
@@ -116,16 +115,16 @@
 .new_1{
   position:absolute;
   font-weight:bold;
-  margin-left: 16.2%;
-  margin-top: 8%;
+  margin-left: 310px;
+  margin-top: 150px;
   font-size: 11pt;
   color: white;
 }
 .new_2{
   position:absolute;
   font-weight:bold;
-  margin-left: 18.2%;
-  margin-top: 8%;
+  margin-left: 350px;
+  margin-top: 150px;
   font-size: 12pt;
   color: black;
 }
