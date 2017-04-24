@@ -21,9 +21,9 @@ html{
   background-image: url("image/mark003.gif");
 
   position:absolute;
-  margin-left: 7.5%;
+  padding-left: 7.5%;
   margin-top: 50px;
-  width: 126px;
+  width: 7.5%;
   height: 70px;
   background-size: 126px 70px;
   background-repeat: no-repeat;
