@@ -1,13 +1,14 @@
 .container{
-  max-width: 1280px;
-  max-height: 2120px;
+  width: 1280px;
+  height: 2120px;
 
 }
 
 #indexSlides_1{
   margin: 0 auto;
   background-image: url("image/tjz_4.jpg");
-  width: 97.9vw;
+  opacity: 1;
+  width: 97vw;
   height: 550px;
   margin-left: -8px;
   margin-top: -8px;
@@ -28,18 +29,21 @@
 .logo_world_ch{
   color:white;
   position:absolute;
+  font-size: 14pt;
   margin-left: 260px;
   margin-top: 67px;
 }
 .logo_world_en{
   color:white;
   position:absolute;
+  font-size: 14pt;
   margin-left: 260px;
   margin-top: 87px;
 }
 .world_about{
   color:white;
   font-style: italic;
+  font-size: 16pt;
   position:absolute;
   margin-left: 47.3%;
   margin-top: 67px;
@@ -47,6 +51,7 @@
 .world_new{
   color:white;
   font-style: italic;
+  font-size: 16pt;
   position:absolute;
   margin-left: 55.3%;
   margin-top: 67px;
@@ -54,6 +59,7 @@
 .world_guide{
   color:white;
   font-style: italic;
+  font-size: 16pt;
   position:absolute;
   margin-left: 63.3%;
   margin-top: 67px;
@@ -61,6 +67,7 @@
 .world_axchange{
   color:white;
   font-style: italic;
+  font-size: 16pt;
   position:absolute;
   margin-left: 71.3%;
   margin-top: 67px;
@@ -68,7 +75,57 @@
 .world_contact{
   color:white;
   font-style: italic;
+  font-size: 16pt;
   position:absolute;
   margin-left: 79.3%;
   margin-top: 67px;
+}
+.world_main_ch{
+  color:white;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 33%;
+  margin-top: 330px;
+}
+.world_main_en{
+  color:white;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 28%;
+  margin-top: 400px;
+}
+#indexSlides_2{
+  margin: 0 auto;
+  background-image: url("image/News_2.jpg");
+  width: 98.7vw;
+  height: 550px;
+  background-size: 100% 550px;
+  background-repeat:no-repeat;
+}
+.icon_new{
+  position:absolute;
+  margin-left: 16%;
+  margin-top: 7.5%;
+  background-image: url("image/title_icon.png");
+  width: 45px;
+  height: 37px;
+  background-size: 45px 37px;
+}
+.new_1{
+  position:absolute;
+  font-weight:bold;
+  margin-left: 16.2%;
+  margin-top: 8%;
+  font-size: 11pt;
+  color: white;
+}
+.new_2{
+  position:absolute;
+  font-weight:bold;
+  margin-left: 18.2%;
+  margin-top: 8%;
+  font-size: 12pt;
+  color: black;
 }
