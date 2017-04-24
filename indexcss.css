@@ -1,21 +1,39 @@
 .container{
-  position: absolute;
-  width: 100%;
+
+  width: 1863px;
   height: 2120px;
   margin-left: -8px;
   margin-top: -8px;
 
 }
-#mySlides_1{
+#indexSlides_1{
+  margin-top: auto;
   background-image: url("image/tjz_4.jpg");
   width: 100%;
   height: 550px;
   background-size: 100% 550px;
   background-repeat:no-repeat;
 }
-#mySlides_2{
-  background-image: url("image/about_bg.jpg");
-  width: 100%;
+.logo{
+  background-image: url("image/mark003.gif");
+  position:absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 126px;
+  height: 70px;
+  background-size: 126px 70px;
+  background-repeat: no-repeat;
+}
+.logo_world{
+  color:white;
+  position:absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#indexSlides_2{
+  background-image: url("image/News_2.jpg");
+
+  width: 1903px;
   height: 550px;
   background-size: 100% 550px;
   background-repeat:no-repeat;
