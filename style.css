@@ -317,15 +317,44 @@
 }
 #indexSlides_3{
   margin: 0 auto;
-  background-image: url("image/home_bg2.jpg");
+  background-image: url("../image/home_bg2.jpg");
   width: 100%;
   height: 550px;
   background-size: 100% 550px;
   background-repeat:no-repeat;
 }
+.label_1{
+  color:white;
+  position:absolute;
+  font-weight: bold;
+  font-size: 60pt;
+  margin-left: 136px;
+  margin-top: 40px;
+  font-family:DFKai-sb;
+}
+.label_2{
+  z-index:4;
+  color:black;
+  position:absolute;
+  font-weight: bold;
+  font-size: 60pt;
+  margin-left: 185px;
+  margin-top: 100px;
+  font-family:DFKai-sb;
+}
+.label_3{
+  z-index:4;
+  color:black;
+  position:absolute;
+  font-weight: bold;
+  font-size: 60pt;
+  margin-left: 325px;
+  margin-top: 160px;
+  font-family:DFKai-sb;
+}
 .picture_1{
   position: absolute;
-  background-image: url("image/home_pic1.jpg");
+  background-image: url("../image/home_pic1.jpg");
   margin-left: 136px;
   margin-top: 141px;
   width: 600px;
@@ -338,19 +367,61 @@
   background-image: url("image/home_pic2.jpg");
   z-index:1;
   margin-left: 641px;
-  margin-top: 46px;
+  margin-top: 40px;
   width: 490px;
   height: 272px;
   background-size: 490px 272px;
   background-repeat:no-repeat;
 }
+
+.sublabel_1{
+  color:white;
+  position:absolute;
+  font-size: 20pt;
+  margin-left: 761px;
+  margin-top: 262px;
+  font-family:DFKai-sb;
+}
+.sublabel_2{
+  color:white;
+  position:absolute;
+  font-size: 20pt;
+  margin-left: 761px;
+  margin-top: 282px;
+  font-family:DFKai-sb;
+}
+.sublabel_3{
+  color:white;
+  position:absolute;
+  font-size: 20pt;
+  margin-left: 761px;
+  margin-top: 302px;
+  font-family:DFKai-sb;
+}
+.sublabel_4{
+  color:white;
+  position:absolute;
+  font-size: 20pt;
+  margin-left: 761px;
+  margin-top: 322px;
+  font-family:DFKai-sb;
+}
 #indexSlides_4{
   margin: 0 auto;
-  background-image: url("image/home_bg3.png");
+  background-image: url("../image/home_bg3.png");
   width: 100%;
   height: 208px;
   background-size: 100% 208px;
   background-repeat:no-repeat;
+}
+.icon_label1{
+  color:rgb(180, 48, 46);
+  font-weight: bold;
+  position:absolute;
+  font-size: 16pt;
+  margin-left: 240px;
+  margin-top: 149px;
+  font-family:DFKai-sb;
 }
 .icon_bg1{
   position: absolute;
