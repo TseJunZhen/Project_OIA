@@ -1,8 +1,14 @@
-
+ 
 .container{
   margin: 0 auto;
     max-width: 1280px;
     max-height: 600px;
+    width:100%;
+}
+.container_large{
+    margin: 0 auto;
+    max-width: 1280px;
+    max-height: 1028px;
     width:100%;
 }
 #indexSlides_1{
@@ -133,9 +139,183 @@
   margin: 0 auto;
   background-image: url("../image/contact_bg.jpg");
   width: 100%;
-  height: 1228px;
-  background-size: 100% 1228px;
+  height: 1028px;
+  background-size: 100% 1028px;
   background-repeat:no-repeat;
+}
+#human_pic_1{
+  position:absolute;
+  z-index:2;
+  margin-left: 70px;
+  margin-top: 100px;
+  background-image: url("../image/contact_pic1.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+#human_pic_2{
+  position:absolute;
+  z-index:2;
+  margin-left: 692px;
+  margin-top: 100px;
+  background-image: url("../image/contact_pic2.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+.text_1a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 280px;
+  margin-top: 134px;
+}
+.text_1b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 279px;
+  margin-top: 135px;
+}
+.text_2a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 902px;
+  margin-top: 134px;
+}
+.text_2b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 901px;
+  margin-top: 135px;
+}
+#human_pic_3{
+  position:absolute;
+  z-index:2;
+  margin-left: 70px;
+  margin-top: 373px;
+  background-image: url("../image/contact_pic3.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+.text_3a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 280px;
+  margin-top: 407px;
+}
+.text_3b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 279px;
+  margin-top: 407px;
+}
+#human_pic_4{
+  position:absolute;
+  z-index:2;
+  margin-left: 692px;
+  margin-top: 373px;
+  background-image: url("../image/contact_pic4.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+.text_4a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 902px;
+  margin-top: 407px;
+}
+.text_4b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 901px;
+  margin-top: 408px;
+}
+#human_pic_5{
+  position:absolute;
+  z-index:2;
+  margin-left: 70px;
+  margin-top: 647px;
+  background-image: url("../image/contact_pic5.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+.text_5a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 280px;
+  margin-top: 681px;
+}
+.text_5b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 279px;
+  margin-top: 681px;
+}
+#human_pic_6{
+  position:absolute;
+  z-index:2;
+  margin-left: 692px;
+  margin-top: 647px;
+  background-image: url("../image/contact_pic6.png");
+  width: 154px;
+  height: 181px;
+  background-size: 154px 181px;
+  background-repeat:no-repeat;
+}
+.text_6a{
+  z-index:2;
+  color:white;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 902px;
+  margin-top: 681px;
+}
+.text_6b{
+  z-index:3;
+  color:green;
+  font-size: 14pt;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 901px;
+  margin-top: 681px;
 }
 #foother_slides{
   margin: 0 auto;
@@ -165,4 +345,12 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+.big_Border{
+  margin-top: 40px;
+  position: absolute;
+  opacity: 0.5;
+  width:1280px;
+  height: 912px;
+    background-color: #F0F8FF;
 }
