@@ -204,7 +204,7 @@
   margin-left: 468px;
   margin-top: 328px;
 }
-.world_main_en{
+.world_main_en{ 
   z-index: 5;
   color:black;
   font-style: italic;
@@ -260,12 +260,6 @@
   height: 1228px;
   background-size: 100% 1228px;
   background-repeat:no-repeat;
-}
-.box01,.box11,.box21{
-    margin-top: 50px;
-    margin-left: 50px;
-    width:370px;
-    height: 340px;
 }
 
 .pic01,.pic02,.pic03,
@@ -333,6 +327,12 @@ background-image: url("../image/guide_icon9.png");
 .label_22{margin-left: 119px;}
 .label_23{margin-left: 154px;}
 
+.box01,.box11,.box21{
+    margin-top: 50px;
+    margin-left: 50px;
+    width:370px;
+    height: 340px;
+}
 .box02,.box03,.box12,.box13,.box22,.box23{
     margin-top: 30px;
     margin-left: 390px;
