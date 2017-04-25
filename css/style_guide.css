@@ -25,7 +25,7 @@
   background-repeat: no-repeat;
 }
 .logo_world_ch{
-  color:white;
+  color:black;
   position:absolute;
   font-weight: bold;
   font-size: 12pt;
@@ -33,7 +33,7 @@
   margin-top: 20px;
 }
 .logo_world_en{
-  color:white;
+  color:black;
   position:absolute;
   font-weight: bold;
   font-size: 12pt;
@@ -41,7 +41,7 @@
   margin-top: 40px;
 }
 .world_about{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -49,7 +49,7 @@
   margin-top: 27px;
 }
 .world_new{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -57,7 +57,7 @@
   margin-top: 27px;
 }
 .world_guide{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -65,7 +65,7 @@
   margin-top: 27px;
 }
 .world_axchange{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -73,7 +73,7 @@
   margin-top: 27px;
 }
 .world_contact{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -81,21 +81,38 @@
   margin-top: 27px;
 }
 .world_main_ch{
-  color:white;
-  font-weight: bold;
+  z-index: 5;
+  color:black;
   font-style: italic;
   position:absolute;
-  font-size: 34pt;
-  margin-left: 240px;
+  font-size: 60pt;
+  margin-left: 469px;
   margin-top: 330px;
 }
+.world_main_ch_p{
+  color:white;
+  font-style: italic;
+  position:absolute;
+  font-size: 60pt;
+  margin-left: 468px;
+  margin-top: 328px;
+}
 .world_main_en{
+  z-index: 5;
+  color:black;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 550px;
+  margin-top: 451px;
+}
+.world_main_en_p{
   color:white;
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 120px;
-  margin-top: 400px;
+  margin-left: 549px;
+  margin-top: 450px;
 }
 #indexSlides_2{
   margin: 0 auto;
@@ -137,6 +154,12 @@
   background-size: 100% 1228px;
   background-repeat:no-repeat;
 }
+.box{
+    margin-top: 20px;
+    width:370px;
+    height: 340px;
+    background-color: brown;
+}
 #foother_slides{
   margin: 0 auto;
   background-image: url("../image/footer_bg.jpg");
@@ -165,4 +188,13 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 13pt;
+  margin-left: 595px;
+  margin-top: 17.5px;
+  font-family:DFKai-sb;
 }
