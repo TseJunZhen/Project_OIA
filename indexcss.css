@@ -392,3 +392,33 @@
   background-size: 100px 100px;
   background-repeat:no-repeat;
 }
+#foother_slides{
+  margin: 0 auto;
+  background-image: url("image/footer_bg.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: 100% 200px;
+  background-repeat:no-repeat;
+}
+.footer_map{
+
+  position: absolute;
+  background-image: url("image/footer_pic.jpg");
+  margin-left: 215px;
+  margin-top: 22.5px;
+  z-index: 3;
+  width: 305px;
+  height: 155px;
+  background-size: 305px 155px;
+  background-repeat:no-repeat;
+}
+.footer_bg_white{
+  position: absolute;
+  background-image: url("image/footer_pic2.png");
+  margin-left: 210px;
+  margin-top: 17.5px;
+  width: 315px;
+  height: 165px;
+  background-size: 315px 165px;
+  background-repeat:no-repeat;
+}
