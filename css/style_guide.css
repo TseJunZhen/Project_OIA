@@ -154,11 +154,110 @@
   background-size: 100% 1228px;
   background-repeat:no-repeat;
 }
-.box{
-    margin-top: 20px;
+.box01,.box11,.box21{
+    margin-top: 50px;
+    margin-left: 50px;
     width:370px;
     height: 340px;
-    background-color: brown;
+}
+
+.pic01,.pic02,.pic03,
+.pic11,.pic12,.pic13,
+.pic21,.pic22,.pic23{
+  position: absolute;
+  background-image: url("../image/international_pic1.png");
+  margin-left: 140px;
+  margin-top: 80px;
+  width: 100px;
+  height: 100px;
+  background-size: 90px 80px;
+  background-repeat:no-repeat;
+}
+
+.pic01{
+background-image: url("../image/guide_icon1.png");
+}
+.pic02{
+background-image: url("../image/guide_icon2.png");
+}
+.pic03{
+background-image: url("../image/guide_icon3.gif");
+}
+
+.pic11{
+background-image: url("../image/guide_icon4.png");
+}
+.pic12{
+background-image: url("../image/guide_icon5.png");
+}
+.pic13{
+background-image: url("../image/guide_icon6.png");
+}
+
+.pic21{
+background-image: url("../image/guide_icon7.png");
+}
+.pic22{
+background-image: url("../image/guide_icon8.png");
+}
+.pic23{
+background-image: url("../image/guide_icon9.png");
+}
+
+
+.label_01,.label_02,.label_03,
+.label_11,.label_12,.label_13,
+.label_21,.label_22,.label_23{
+  position: absolute;
+  color:black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20pt;
+  position:absolute;
+  margin-top: 200px;
+  text-align:center;
+}
+.label_02,.label_01{margin-left: 109px;}
+.label_03{margin-left: 127.5px;}
+.label_11{margin-left: 79.5px;}
+.label_12{margin-left: 122px;}
+.label_13{margin-left: 121px;}
+.label_21{margin-left: 95.5px;}
+.label_22{margin-left: 119px;}
+.label_23{margin-left: 154px;}
+
+.box02,.box03,.box12,.box13,.box22,.box23{
+    margin-top: 30px;
+    margin-left: 390px;
+    width:370px;
+    height: 340px;
+}
+.box01{
+    background-color: rgba(167, 123, 0, 0.73);
+}
+.box02{
+    background-color: rgba(228, 98, 230, 0.73);
+}
+.box03{
+    background-color: rgba(126, 0, 167, 0.73);
+}
+.box11{
+    background-color: rgba(228, 255, 0, 0.73)  ;
+}
+.box12{
+    background-color: rgba(91, 232, 255, 0.73);
+}
+.box13{
+    background-color: rgba(107, 107, 107, 0.73);
+}
+.box21{
+    background-color: rgba(253, 64, 64, 0.73);
+}
+.box22{
+    background-color: rgba(76, 74, 216, 0.73);
+}
+.box23{
+    background-color: rgba(54, 175, 64, 0.68);
 }
 #foother_slides{
   margin: 0 auto;
