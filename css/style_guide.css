@@ -261,6 +261,7 @@
   background-size: 100% 1228px;
   background-repeat:no-repeat;
 }
+<<<<<<< HEAD
 
 .pic01,.pic02,.pic03,
 .pic11,.pic12,.pic13,
@@ -365,6 +366,13 @@ background-image: url("../image/guide_icon9.png");
 }
 .box23{
     background-color: rgba(54, 175, 64, 0.68);
+=======
+.box{
+    margin-top: 20px;
+    width:370px;
+    height: 340px;
+    background-color: brown;
+>>>>>>> origin/master
 }
 #foother_slides{
   margin: 0 auto;
