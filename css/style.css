@@ -3,7 +3,7 @@
     max-height: 600px;
     width:100%;
   	margin: 0 auto;
-} 
+}
 
 #indexSlides_1{
   margin: 0 auto;
@@ -39,6 +39,30 @@
   font-size: 12pt;
   margin-left: 80px;
   margin-top: 40px;
+}
+.language_en{
+  color:white;
+  font-style: italic;
+  font-size: 10pt;
+  position:absolute;
+  margin-left: 1080px;
+  margin-top: 5px;
+}
+.language_line{
+  color:white;
+  font-style: italic;
+  font-size: 12pt;
+  position:absolute;
+  margin-left: 1103px;
+  margin-top: 4px;
+}
+.language_ch{
+  color:white;
+  font-style: italic;
+  font-size: 10pt;
+  position:absolute;
+  margin-left: 1110px;
+  margin-top: 6px;
 }
 .world_about{
   color:white;
