@@ -25,7 +25,8 @@
   background-repeat: no-repeat;
 }
 .logo_world_ch{
-  color:white;
+  color:black;
+  z-index: 5;
   position:absolute;
   font-weight: bold;
   font-size: 12pt;
@@ -33,7 +34,7 @@
   margin-top: 20px;
 }
 .logo_world_en{
-  color:white;
+  color:black;
   position:absolute;
   font-weight: bold;
   font-size: 12pt;
@@ -41,7 +42,7 @@
   margin-top: 40px;
 }
 .world_about{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -49,7 +50,7 @@
   margin-top: 27px;
 }
 .world_new{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -57,7 +58,7 @@
   margin-top: 27px;
 }
 .world_guide{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -65,7 +66,7 @@
   margin-top: 27px;
 }
 .world_axchange{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -73,7 +74,7 @@
   margin-top: 27px;
 }
 .world_contact{
-  color:white;
+  color:black;
   font-style: italic;
   font-size: 14pt;
   position:absolute;
@@ -81,21 +82,38 @@
   margin-top: 27px;
 }
 .world_main_ch{
-  color:white;
-  font-weight: bold;
+  z-index: 5;
+  color:black;
   font-style: italic;
   position:absolute;
-  font-size: 34pt;
-  margin-left: 240px;
+  font-size: 60pt;
+  margin-left: 469px;
   margin-top: 330px;
 }
+.world_main_ch_p{
+  color:white;
+  font-style: italic;
+  position:absolute;
+  font-size: 60pt;
+  margin-left: 468px;
+  margin-top: 328px;
+}
 .world_main_en{
+  z-index: 5;
+  color:black;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 550px;
+  margin-top: 451px;
+}
+.world_main_en_p{
   color:white;
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 120px;
-  margin-top: 400px;
+  margin-left: 549px;
+  margin-top: 450px;
 }
 #indexSlides_2{
   margin: 0 auto;
@@ -137,6 +155,95 @@
   background-size: 100% 1228px;
   background-repeat:no-repeat;
 }
+.title{
+  color:black;
+  font-style: italic;
+  font-size: 25pt;
+  position:absolute;
+  margin-top: 13px;
+
+}
+.line {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    margin-top: 55px;
+
+}
+.box{
+    margin-left: 100px;
+    margin-top: 20px;
+    width:1000px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.timeline_icon{
+  position: absolute;
+  background-image: url("../image/international_pic1.png");
+  margin-left: 150px;
+  margin-top: 200px;
+  width: 90px;
+  height: 80px;
+  background-size: 90px 80px;
+  background-repeat:no-repeat;
+}
+.Admission_timeline{
+  color:red;
+  font-style: bold;
+  font-size: 15pt;
+  position:absolute;
+  margin-left: 110px;
+  margin-top: 300px;
+
+}
+.label_01{
+  color:black;
+  font-style: italic;
+  font-size: 20pt;
+  position:absolute;
+  margin-top: 15px;
+  margin-left: 510px;
+}
+.label_02{
+  color:black;
+  font-style: italic;
+  font-size: 20pt;
+  position:absolute;
+  margin-top: 170px;
+  margin-left: 580px;
+}
+.label_03{
+  color:black;
+  font-style: italic;
+  font-size: 20pt;
+  position:absolute;
+  margin-top: 280px;
+  margin-left: 510px;
+}
+.label_04{
+  color:black;
+  font-style: italic;
+  font-size: 18pt;
+  text-align:center;
+  position:absolute;
+  margin-top: 410px;
+  margin-left: 550px;
+}
+.timeline{
+  position: absolute;
+  background-image: url("../image/international_pic2.png");
+  margin-left: 500px;
+  margin-top: 80px;
+  width: 94px;
+  height: 494px;
+  background-size: 94px 491px;
+  background-repeat:no-repeat;
+}
+.line2 {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    margin-top: 55px;
+
+}
 #foother_slides{
   margin: 0 auto;
   background-image: url("../image/footer_bg.jpg");
@@ -156,6 +263,17 @@
   background-size: 305px 155px;
   background-repeat:no-repeat;
 }
+.footer_bg_black{
+  position: absolute;
+  background-image: url("../image/footer_pic2.png");
+  margin-left: 210px;
+  margin-top: 17.5px;
+  width: 315px;
+  height: 165px;
+  background-size: 315px 165px;
+  background-repeat:no-repeat;
+}
+
 .footer_bg_white{
   position: absolute;
   background-image: url("../image/footer_pic2.png");
@@ -165,4 +283,13 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 13pt;
+  margin-left: 595px;
+  margin-top: 17.5px;
+  font-family:DFKai-sb;
 }
