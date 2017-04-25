@@ -97,6 +97,30 @@
   margin-left: 120px;
   margin-top: 400px;
 }
+.home_logo{
+  position: absolute;
+  background-image: url("../image/home_icon.png");
+  z-index: 2;
+  margin-left: 70px;
+  margin-top: 32px;
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-repeat:no-repeat;
+}
+.link_SS{
+  position: absolute;
+  margin-left: 124px;
+  margin-top: 28px;
+  font-size: 16pt;
+  color:black;
+}
+.container_mini{
+  margin: 0 auto;
+    max-width: 1280px;
+    max-height: 80px;
+    width:100%;
+}
 #indexSlides_2{
   margin: 0 auto;
   background-image: url("../image/border.png");
