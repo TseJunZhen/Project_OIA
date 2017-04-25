@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="indexcss.css" >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/indexjs.js"></script>
   </head>
   <body>
 
@@ -76,38 +77,43 @@
     </a>
       <div class="hr_5"></div>
       <div class="container_panel">
-  <div class="panel_group">
-    <div class="panel panel-default">
-      <div  class="panel_heading_1">外籍生</div>
-      <a href="http://google.com" class="panel_body">外籍學生申請入學流程圖抵臺前必讀重要資訊</a>
-    </div>
+      <div class="panel_group">
 
-    <div class="panel panel-primary">
-      <div class="panel_heading_2">僑生</div>
+
+      <button  class="panel-heading_1" id="button"><span>外籍生</span></button>
+      <div id="wrapper" class="open">
+      <ul id="list">
+      <a href="http://google.com" class="panel_body">外籍學生申請入學流程圖抵臺前必讀重要資訊</a>
+      </ul>
+      </div>
+
+      <button class="panel-heading_2" id="button"><span>僑生</span></button>
+      <div id="wrapper" class="open">
+      <ul id="list">
       <a href="http://google.com" class="panel_body">單獨招生</a><br>
       <a href="http://google.com" class="panel_body">流程圖海外聯招</a><br>
       <a href="http://google.com" class="panel_body">流程圖本校僑生文宣</a><br>
       <a href="http://google.com" class="panel_body">抵臺前必讀重要資訊</a>
+    </ul>
+      </div>
 
-    </div>
-
-
-    <div class="panel panel-success">
-      <div class="panel_heading_3">陸生</div>
+      <button class="panel-heading_3" id="button"><span>陸生</span></button>
+        <div id="wrapper" class="open">
+            <ul id="list">
       <a href="http://google.com" class="panel_body">大陸地區學生身分申請就讀</a><br>
       <a href="http://google.com" class="panel_body">臺北科大碩博士課程</a>
-        </div>
+  </ul>
+      </div>
 
-
-
-
-    <div class="panel panel-info">
-      <div class="panel_heading_4">獎學金</div>
+      <button class="panel-heading_4" id="button"><span>獎學金</span></button>
+  <div id="wrapper" class="open">
+        <ul id="list">
       <a href="http://google.com" class="panel_body">外籍生獎學金</a><br>
       <a href="http://google.com" class="panel_body">僑生(含港澳生)獎學金</a><br>
       <a href="http://google.com" class="panel_body">陸生獎學金</a><br>
       <a href="http://google.com" class="panel_body">其他獎學金</a>
-    </div>
+  </ul>
+      </div>
 
   </div>
 </div>
