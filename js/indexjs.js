@@ -147,3 +147,54 @@ $(function() {
 
   });
 });
+
+$(document).ready(function(){
+  $(".btn1").click(function(){
+      $(".text_1a").fadeOut()
+      $(".text_1b").fadeOut()
+  });
+  $(".btn1").click(function(){
+    $(".text_1a").fadeIn()
+    $(".text_1b").fadeIn()
+  });
+  $(".btn2").click(function(){
+      $(".text_2a").fadeOut()
+      $(".text_2b").fadeOut()
+  });
+  $(".btn2").click(function(){
+    $(".text_2a").fadeIn()
+    $(".text_2b").fadeIn()
+  });
+  $(".btn3").click(function(){
+      $(".text_3a").fadeOut()
+      $(".text_3b").fadeOut()
+  });
+  $(".btn3").click(function(){
+    $(".text_3a").fadeIn()
+    $(".text_3b").fadeIn()
+  });
+  $(".btn4").click(function(){
+      $(".text_4a").fadeOut()
+      $(".text_4b").fadeOut()
+  });
+  $(".btn4").click(function(){
+    $(".text_4a").fadeIn()
+    $(".text_4b").fadeIn()
+  });
+  $(".btn5").click(function(){
+      $(".text_5a").fadeOut()
+      $(".text_5b").fadeOut()
+  });
+  $(".btn5").click(function(){
+    $(".text_5a").fadeIn()
+    $(".text_5b").fadeIn()
+  });
+  $(".btn6").click(function(){
+      $(".text_6a").fadeOut()
+      $(".text_6b").fadeOut()
+  });
+  $(".btn6").click(function(){
+    $(".text_6a").fadeIn()
+    $(".text_6b").fadeIn()
+  });
+});
