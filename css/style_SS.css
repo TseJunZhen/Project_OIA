@@ -1,0 +1,157 @@
+
+.container{
+  margin: 0 auto;
+    max-width: 1280px;
+    max-height: 600px;
+    width:100%;
+}
+.container_mini{
+  margin: 0 auto;
+    max-width: 1280px;
+    max-height: 80px;
+    width:100%;
+}
+.container_large{
+  margin: 0 auto;
+    max-width: 1280px;
+    max-height: 1228px;
+    width:100%;
+}
+#indexSlides_1{
+  margin: 0 auto;
+  background-image: url("../image/guide_cover.jpg");
+  opacity: 1;
+  width: 100%;
+  height: 550px;
+  background-size: 100% 550px;
+  background-repeat:no-repeat;
+}
+.logo{
+  background-image: url("../image/logo.gif");
+  position:absolute;
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  background-size: 65px 60px;
+  background-repeat: no-repeat;
+}
+.logo_world_ch{
+  color:white;
+  position:absolute;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.logo_world_en{
+  color:white;
+  position:absolute;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.world_about{
+  color:white;
+  font-style: italic;
+  font-size: 14pt;
+  position:absolute;
+  margin-left: 650px;
+  margin-top: 27px;
+}
+.world_new{
+  color:white;
+  font-style: italic;
+  font-size: 14pt;
+  position:absolute;
+  margin-left: 750px;
+  margin-top: 27px;
+}
+.world_guide{
+  color:white;
+  font-style: italic;
+  font-size: 14pt;
+  position:absolute;
+  margin-left: 850px;
+  margin-top: 27px;
+}
+.world_axchange{
+  color:white;
+  font-style: italic;
+  font-size: 14pt;
+  position:absolute;
+  margin-left: 950px;
+  margin-top: 27px;
+}
+.world_contact{
+  color:white;
+  font-style: italic;
+  font-size: 14pt;
+  position:absolute;
+  margin-left: 1050px;
+  margin-top: 27px;
+}
+.world_main_ch{
+  color:white;
+  font-weight: bold;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 240px;
+  margin-top: 330px;
+}
+.world_main_en{
+  color:white;
+  font-style: italic;
+  position:absolute;
+  font-size: 34pt;
+  margin-left: 120px;
+  margin-top: 400px;
+}
+#indexSlides_2{
+  margin: 0 auto;
+  background-image: url("../image/border.png");
+  width: 100%;
+  height: 80px;
+  background-size: 100% 80px;
+  background-repeat:no-repeat;
+}
+#indexSlides_3{
+  margin: 0 auto;
+  background-image: url("../image/guide_bg.jpg");
+  width: 100%;
+  height: 1228px;
+  background-size: 100% 1228px;
+  background-repeat:no-repeat;
+}
+
+#foother_slides{
+  margin: 0 auto;
+  background-image: url("../image/footer_bg.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: 100% 200px;
+  background-repeat:no-repeat;
+}
+.footer_map{
+  position: absolute;
+  background-image: url("../image/footer_pic.jpg");
+  margin-left: 215px;
+  margin-top: 22.5px;
+  z-index: 3;
+  width: 305px;
+  height: 155px;
+  background-size: 305px 155px;
+  background-repeat:no-repeat;
+}
+.footer_bg_white{
+  position: absolute;
+  background-image: url("../image/footer_pic2.png");
+  margin-left: 210px;
+  margin-top: 17.5px;
+  width: 315px;
+  height: 165px;
+  background-size: 315px 165px;
+  background-repeat:no-repeat;
+}
