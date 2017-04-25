@@ -377,6 +377,26 @@
   margin-top: 160px;
   font-family:DFKai-sb;
 }
+.label_2_hover{
+  z-index:2;
+  color:white;
+  position:absolute;
+  font-weight: bold;
+  font-size: 50pt;
+  margin-left: 183px;
+  margin-top: 103px;
+  font-family:DFKai-sb;
+}
+.label_3_hover{
+  z-index:2;
+  color:white;
+  position:absolute;
+  font-weight: bold;
+  font-size: 45pt;
+  margin-left: 278px;
+  margin-top: 158px;
+  font-family:DFKai-sb;
+}
 .picture_1{
   position: absolute;
   background-image: url("../image/home_pic1.jpg");
