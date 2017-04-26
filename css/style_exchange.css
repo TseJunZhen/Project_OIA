@@ -262,6 +262,104 @@
   background-size: 100% 1228px;
   background-repeat:no-repeat;
 }
+
+
+.transparent1,.transparent{
+  margin-top: 70px;
+  position: absolute;
+  width:370px;
+  height: 190px;
+    background-color: #F0F8FF;
+}
+.transparent1{opacity: 0.5;}.transparent{opacity: 0.3;}
+
+.pic01,.pic02,.pic03,
+.pic11,.pic12,.pic13,
+.pic21,.pic22,.pic23{
+  position: absolute;
+  margin-top: 80px;
+  width: 370px;
+  height: 169px;
+  background-size: 370px 169px;
+  background-repeat:no-repeat;
+}
+
+.pic01{
+background-image: url("../image/exchange_pic1.jpg");
+}
+.pic02{
+background-image: url("../image/exchange_pic2.jpg");
+}
+.pic03{
+background-image: url("../image/exchange_pic3.jpg");
+}
+
+.pic11{
+background-image: url("../image/exchange_pic4.jpg");
+}
+.pic12{
+background-image: url("../image/exchange_pic5.jpg");
+}
+.pic13{
+background-image: url("../image/exchange_pic6.jpg");
+}
+
+
+
+.label_01,.label_02,.label_03,
+.label_11,.label_12,.label_13{
+  position: absolute;
+  color:black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20pt;
+  position:absolute;
+  margin-top: 350px;
+  text-align:center;
+  font-family: Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif
+}
+.label_01{margin-left: 38px;}
+.label_02{margin-left: 95.5px;}
+.label_03{margin-left: 34px;}
+.label_11{margin-left: 100px;}
+.label_12{margin-left: 24.5px;}
+.label_13{margin-left: 11px;}
+
+.box01,.box11{
+    margin-top: 20px;
+    margin-left: 50px;
+    width:370px;
+    height: 490px;
+    opacity: 0.95;
+}
+.box02,.box03,.box12,.box13{
+    margin-top: 20px;
+    margin-left: 380px;
+    width:370px;
+    height: 490px;
+    opacity: 0.95;
+}
+.box01{
+    background-color: rgb(92, 98, 178);
+}
+.box02{
+    background-color: rgb(156, 45, 113);
+}
+.box03{
+    background-color: rgb(241, 73, 53);
+}
+.box11{
+    background-color: rgba(241, 73, 53, 0.73)  ;
+}
+.box12{
+    background-color: rgba(156, 45, 13, 0.73);
+}
+.box13{
+    background-color: rgba(92, 98, 178, 0.73);
+}
+
+
+
 #foother_slides{
   margin: 0 auto;
   background-image: url("../image/footer_bg.jpg");
@@ -290,4 +388,13 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 10pt;
+  margin-left: 590px;
+  margin-top: 45.5px;
+  font-family:DFKai-sb;
 }

@@ -204,7 +204,7 @@
   margin-left: 468px;
   margin-top: 328px;
 }
-.world_main_en{ 
+.world_main_en{
   z-index: 5;
   color:black;
   font-style: italic;
@@ -266,7 +266,6 @@
 .pic11,.pic12,.pic13,
 .pic21,.pic22,.pic23{
   position: absolute;
-  background-image: url("../image/international_pic1.png");
   margin-left: 140px;
   margin-top: 80px;
   width: 100px;
