@@ -1,4 +1,4 @@
- 
+
 .container{
   margin: 0 auto;
     max-width: 1280px;
@@ -86,21 +86,23 @@
   margin-left: 1050px;
   margin-top: 27px;
 }
+a div, p { transition: all .3s ease-in-out; }
+a div:hover, p:hover { color:gray; transform: scale(1.1); }
 .world_main_ch{
-  color:white;
+  color:black;
   font-weight: bold;
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 240px;
+  margin-left: 440px;
   margin-top: 330px;
 }
 .world_main_en{
-  color:white;
+  color:black;
   font-style: italic;
   position:absolute;
   font-size: 34pt;
-  margin-left: 120px;
+  margin-left: 390px;
   margin-top: 400px;
 }
 #indexSlides_2{
@@ -326,6 +328,7 @@
   background-repeat:no-repeat;
 }
 .footer_map{
+
   position: absolute;
   background-image: url("../image/footer_pic.jpg");
   margin-left: 215px;
@@ -345,6 +348,15 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 13pt;
+  margin-left: 595px;
+  margin-top: 17.5px;
+  font-family:DFKai-sb;
 }
 .big_Border{
   margin-top: 40px;

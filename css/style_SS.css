@@ -429,6 +429,7 @@
   background-repeat:no-repeat;
 }
 .footer_map{
+
   position: absolute;
   background-image: url("../image/footer_pic.jpg");
   margin-left: 215px;
@@ -439,6 +440,10 @@
   background-size: 305px 155px;
   background-repeat:no-repeat;
 }
+.footer_map:hover{
+  margin-top: -10px;
+  transform: scale(1.3);
+}
 .footer_bg_white{
   position: absolute;
   background-image: url("../image/footer_pic2.png");
@@ -448,4 +453,13 @@
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 13pt;
+  margin-left: 595px;
+  margin-top: 17.5px;
+  font-family:DFKai-sb;
 }
