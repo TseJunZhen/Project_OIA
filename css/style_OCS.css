@@ -141,7 +141,7 @@
   width: 1280px;
   height: 370px;
 }
-.panel_body{
+.panel_body1{
   font-style: italic;
   margin-left: -30px;
   color: black;
@@ -289,7 +289,7 @@
 #list_1 div{
   display: inline-block;
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: #b2adad;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -307,7 +307,6 @@ box-shadow: 0 9px #999;
   font-size: 30px;
   padding-top: 100px;
 }
-#list_1 div:hover {background-color: #3e8e41}
 
 #list_1 div:active {
   background-color: #3e8e41;
@@ -335,7 +334,6 @@ box-shadow: 0 9px #999;
   font-size: 30px;
   padding-top: 100px;
 }
-#list_2 div:hover {background-color: #3e8e41}
 
 #list_2 div:active {
   background-color: #3e8e41;
@@ -345,7 +343,7 @@ box-shadow: 0 9px #999;
 #list_3 div{
   display: inline-block;
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: rgba(255, 156, 0, 0.65);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -363,7 +361,7 @@ box-shadow: 0 9px #999;
   font-size: 30px;
   padding-top: 100px;
 }
-#list_3 div:hover {background-color: #3e8e41}
+#list_3 div:hover {background-color: red}
 
 #list_3 div:active {
   background-color: #3e8e41;
@@ -373,7 +371,7 @@ box-shadow: 0 9px #999;
 #list_4 div{
   display: inline-block;
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: rgba(255, 0, 0, 0.64);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -399,6 +397,60 @@ box-shadow: 0 9px #999;
   transform: translateY(4px);
 
 }
+#list_1 .panel_body1:hover {background-color: black}
+#list_1 .panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_1 .panel_body3:hover {background-color: rgba(255, 0, 0, 0.64)}
+#list_1 .panel_body4:hover {background-color: black;}
+#list_1 .panel_body5:hover {background-color: #333333}
+#list_1 .panel_body6:hover {background-color: #CC00FF}
+#list_1 .panel_body7:hover {background-color: #99FFFF}
+#list_1 .panel_body8:hover {background-color: #33FF33}
+#list_1 .panel_body10:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_1 .panel_body9:hover {background-color: #EEEE00}
+#list_2 .panel_body1:hover {background-color: black}
+#list_2 .panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_2 .panel_body3:hover {background-color: rgba(255, 0, 0, 0.64)}
+#list_2 .panel_body4:hover {background-color: black;}
+#list_2 .panel_body5:hover {background-color: #333333}
+#list_2 .panel_body6:hover {background-color: #CC00FF}
+#list_2 .panel_body7:hover {background-color: #99FFFF}
+#list_2 .panel_body8:hover {background-color: #33FF33}
+#list_2 .panel_body10:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_2 .panel_body9:hover {background-color: #EEEE00}
+#list_4 .panel_body1:hover {background-color: black}
+#list_4 .panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_4 .panel_body3:hover {background-color: #CC00FF}
+#list_4 .panel_body4:hover {background-color: black;}
+#list_4 .panel_body5:hover {background-color: #333333}
+#list_4 .panel_body6:hover {background-color: #CC00FF}
+#list_4 .panel_body7:hover {background-color: #99FFFF}
+#list_4 .panel_body8:hover {background-color: #33FF33}
+#list_4 .panel_body10:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_4 .panel_body9:hover {background-color: #EEEE00}
+#list_3 .panel_body1:hover {background-color: black}
+#list_3 .panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_3 .panel_body3:hover {background-color: rgba(255, 0, 0, 0.64)}
+#list_3 .panel_body4:hover {background-color: black;}
+#list_3 .panel_body5:hover {background-color: #333333}
+#list_3 .panel_body6:hover {background-color: #CC00FF}
+#list_3 .panel_body7:hover {background-color: #99FFFF}
+#list_3 .panel_body8:hover {background-color: #33FF33}
+#list_3 .panel_body10:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_3 .panel_body9:hover {background-color: black}
+
+.panel_body1:hover {background-color: black}
+.panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+.panel_body3:hover {background-color: rgba(255, 0, 0, 0.64)}
+.panel_body4:hover {background-color: #b2adad;}
+.panel_body5:hover {background-color: #3333}
+.panel_body6:hover {background-color: #CC00FF}
+.panel_body7:hover {background-color: #99FFFF}
+.panel_body8:hover {background-color: #33FF33}
+.panel_body9:hover {background-color: #EEEE00}
+.panel_body10:hover {background-color: rgba(255, 156, 0, 0.65)}
+
+
+
 #indexSlides_3{
   margin: 0 auto;
   background-image: url("../image/guide_bg.jpg");
@@ -426,6 +478,17 @@ box-shadow: 0 9px #999;
   background-size: 305px 155px;
   background-repeat:no-repeat;
 }
+.footer_bg_black{
+  position: absolute;
+  background-image: url("../image/footer_pic2.png");
+  margin-left: 210px;
+  margin-top: 17.5px;
+  width: 315px;
+  height: 165px;
+  background-size: 315px 165px;
+  background-repeat:no-repeat;
+}
+
 .footer_bg_white{
   position: absolute;
   background-image: url("../image/footer_pic2.png");
@@ -435,4 +498,13 @@ box-shadow: 0 9px #999;
   height: 165px;
   background-size: 315px 165px;
   background-repeat:no-repeat;
+}
+
+.footer_label{
+  color:white;
+  position:absolute;
+  font-size: 13pt;
+  margin-left: 595px;
+  margin-top: 17.5px;
+  font-family:DFKai-sb;
 }

@@ -244,6 +244,93 @@
     margin-top: 55px;
 
 }
+
+a div, p { transition: all .5s ease-in-out; }
+a div:hover, p:hover { transform: scale(1.1); }
+#list_1 .panel_body1{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #cccccc;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px;
+  border-radius: 10px;
+box-shadow: 0 9px #999;
+}
+#list_1 .panel_body2{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #666666;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px;
+  border-radius: 10px;
+box-shadow: 0 9px #999;
+}
+#list_1 .panel_body3{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #333333;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px;
+  border-radius: 10px;
+box-shadow: 0 9px #999;
+}
+#list_1 .panel_body4{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px;
+  border-radius: 10px;
+box-shadow: 0 9px #999;
+}
+.panel_body{
+  font-style: italic;
+  margin-left: -30px;
+  color: black;
+  font-size: 10pt;
+}
+#list_1 a{
+  font-size: 30px;
+  padding-top: 100px;
+}
+#list_1 .panel_body1:hover {background-color: #3e8e41}
+#list_1 .panel_body2:hover {background-color: rgba(255, 156, 0, 0.65)}
+#list_1 .panel_body3:hover {background-color: rgba(255, 0, 0, 0.64)}
+#list_1 .panel_body4:hover {background-color: #b2adad}
+
+#list_1 div:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #foother_slides{
   margin: 0 auto;
   background-image: url("../image/footer_bg.jpg");
