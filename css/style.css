@@ -4,7 +4,8 @@
     width:100%;
   	margin: 0 auto;
 }
-
+a div, p, .picture_1,.picture_2,.footer_map { transition: all .3s ease-in-out; }
+a div:hover, p:hover { color:gray; transform: scale(1.1); }
 #indexSlides_1{
   margin: 0 auto;
   background-image: url("../image/home_cover.jpg");
@@ -386,6 +387,11 @@
   background-size: 600px 350px;
   background-repeat:no-repeat;
 }
+.picture_1:hover{
+  z-index:2;
+  opacity: 0.8;
+  transform: scale(1.2);
+}
 .picture_2{
   position: absolute;
   background-image: url("../image/home_pic2.jpg");
@@ -397,7 +403,11 @@
   background-size: 490px 272px;
   background-repeat:no-repeat;
 }
-
+.picture_2:hover{
+  z-index:2;
+  opacity: 0.8;
+  transform: scale(1.2);
+}
 .sublabel_1{
   color:white;
   position:absolute;
@@ -484,9 +494,39 @@
   background-size: 100px 100px;
   background-repeat:no-repeat;
 }
+.icon_bg1:hover{
+  position: absolute;
+  background-image: url("../image/home_icon10.png");
+
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(180, 48, 46);
+
+  margin-left: 233px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+
 .icon_bg2{
   position: absolute;
   background-image: url("../image/home_icon2.png");
+  margin-left: 459px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+.icon_bg2:hover{
+  position: absolute;
+  background-image: url("../image/home_icon20.png");
+
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(180, 48, 46);
   margin-left: 459px;
   margin-top: 50px;
   width: 100px;
@@ -504,9 +544,39 @@
   background-size: 100px 100px;
   background-repeat:no-repeat;
 }
+.icon_bg3:hover{
+  position: absolute;
+  background-image: url("../image/home_icon30.png");
+
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(180, 48, 46);
+
+  margin-left: 689px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
 .icon_bg4{
   position: absolute;
   background-image: url("../image/home_icon4.png");
+  margin-left: 914px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  background-repeat:no-repeat;
+}
+.icon_bg4:hover{
+  position: absolute;
+  background-image: url("../image/home_icon40.png");
+
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(180, 48, 46);
+
   margin-left: 914px;
   margin-top: 50px;
   width: 100px;
@@ -533,6 +603,10 @@
   height: 155px;
   background-size: 305px 155px;
   background-repeat:no-repeat;
+}
+.footer_map:hover{
+  margin-top: -10px;
+  transform: scale(1.3);
 }
 .footer_bg_white{
   position: absolute;
